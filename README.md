@@ -1,8 +1,8 @@
-Portfolio
+<h1>Portfolio</h1>
 
 Este é o repositório do meu portfólio pessoal, desenvolvido para exibir minhas habilidades, projetos e informações de contato. Ele foi construído com tecnologias modernas para proporcionar uma experiência de usuário rápida, responsiva e estilizada.
 
-Tecnologias Utilizadas
+<h2>Tecnologias Utilizadas</h2>
 
 Next.js: Framework React para renderização do lado do servidor e geração de sites estáticos.
 
@@ -14,7 +14,7 @@ Tailwind CSS: Framework CSS utilitário para estilização rápida e customizáv
 
 Node.js: Ambiente de execução JavaScript no lado do servidor, usado para backend.
 
-Funcionalidades
+<h2>Funcionalidades</h2>
 
 Links rápidos para redes sociais e currículo:
 
@@ -32,7 +32,7 @@ Design responsivo: Totalmente adaptado para diferentes tamanhos de tela (desktop
 
 Transições suaves: Efeitos visuais animados usando Tailwind CSS para uma experiência fluida.
 
-Como Executar Localmente
+<h2>Como Executar Localmente</h2>
 
 Clone o repositório:
 
@@ -58,7 +58,7 @@ Acesse o projeto no navegador:
 
 O projeto estará disponível em http://localhost:3000.
 
-Estrutura do Projeto
+<h2>Estrutura do Projeto</h2>
 
 portfolio/
 ├── public/               # Arquivos estáticos (imagens, favicon, etc.)
@@ -70,22 +70,14 @@ portfolio/
 ├── package.json          # Dependências e scripts
 └── tailwind.config.js    # Configuração do Tailwind CSS
 
-Contribuição
+<h2>Contribuição</h2>
 
 Se você quiser contribuir com melhorias ou sugestões para este projeto, fique à vontade para abrir um issue ou enviar um pull request.
 
-Contato
+## :memo: Licença
 
-Se tiver alguma dúvida ou quiser entrar em contato, pode me encontrar em:
+Esse projeto está sob a licença MIT.
 
-LinkedIn: Seu Nome
+---
 
-GitHub: Seu GitHub
-
-E-mail: seuemail@exemplo.com
-
-Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
-
-Obrigado por visitar meu portfólio! 😊
+Feito com ♥ by Kiki.
