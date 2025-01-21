@@ -56,8 +56,8 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="min-w-screen max-w-5xl pt-24">
-        <h1 className="sm:text-3xl md:text-4xl xl:text-5xl">Sobre mim</h1>
+      <div className="min-w-screen max-w-5xl">
+        <h1 className="sm:text-3xl md:text-4xl xl:text-5xl pb-2">Sobre mim</h1>
         <div className="flex flex-wrap justify-between w-5xl">
           <p className="text-xs w-full sm:text-sm md:w-4/6 md:text-lg xl:w-4/6 xl:text-lg text-pretty text-justify">
             Sou desenvolvedora front-end focada em React.js e estudante do
