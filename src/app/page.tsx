@@ -133,20 +133,14 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center justify-center bg-faded rounded-md p-3 mb-4 sm:p-6 gap-4 text-sm sm:text-base">
-          <a
-            href="https://kikiayres.github.io/BusinessCard/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-md object-scale-down"
-              width={640}
-              height={762}
-              src={businessCard}
-              alt="Business Card"
-              priority
-            />
-          </a>
+          <Image
+            className="rounded-md object-scale-down"
+            width={640}
+            height={762}
+            src={businessCard}
+            alt="Business Card"
+            priority
+          />
 
           <div className="flex flex-wrap justify-center gap-3">
             <TechnologieIcon icon={<FaHtml5 />} text={"HTML"} />
@@ -157,25 +151,19 @@ export default function Home() {
           <h1 className="text-justify py-5">
             Business Card é um cartão de apresentação desenvolvido utilizando
             JavaScript, HTML e CSS foi meu primeiro projeto certificado
-            realizado com a Rocketseat. Para abrir clique na imagem.
+            realizado com a Rocketseat.
           </h1>
         </div>
 
         <div className="flex flex-col items-center justify-center bg-faded rounded-md p-3 mb-4 sm:p-6 gap-4 text-sm sm:text-base">
-          <a
-            href="https://kikiayres.github.io/Calculator/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="rounded-md object-scale-down"
-              width={445}
-              height={584}
-              src={projectCalculator}
-              alt="matemáquina"
-              priority
-            />
-          </a>
+          <Image
+            className="rounded-md object-scale-down"
+            width={445}
+            height={584}
+            src={projectCalculator}
+            alt="matemáquina"
+            priority
+          />
 
           <div className="flex flex-wrap justify-center gap-3">
             <TechnologieIcon icon={<FaHtml5 />} text={"HTML"} />
@@ -187,8 +175,7 @@ export default function Home() {
             Matemáquina é uma calculadora simples desenvolvida utilizando
             JavaScript, HTML e CSS. É uma aplicação web que permite realizar
             operações matemáticas básicas de adição, subtração, multiplicação e
-            divisão. Este foi meu primeiro projeto de programação. Para abrir
-            clique na imagem.
+            divisão. Este foi meu primeiro projeto de programação.
           </h1>
         </div>
       </div>
