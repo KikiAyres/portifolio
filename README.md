@@ -1,65 +1,74 @@
-<h1>Portfolio</h1>
+# Portfolio
 
 Este é o repositório do meu portfólio pessoal, desenvolvido para exibir minhas habilidades, projetos e informações de contato. Ele foi construído com tecnologias modernas para proporcionar uma experiência de usuário rápida, responsiva e estilizada.
 
-<h2>Tecnologias Utilizadas</h2>
+---
 
-Next.js: Framework React para renderização do lado do servidor e geração de sites estáticos.
+## **Tecnologias Utilizadas**
 
-React: Biblioteca JavaScript para construção de interfaces de usuário.
+- **[Next.js](https://nextjs.org/):** Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **[React](https://reactjs.org/):** Biblioteca JavaScript para construção de interfaces de usuário.
+- **[TypeScript](https://www.typescriptlang.org/):** Superset do JavaScript que adiciona tipagem estática ao código.
+- **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS utilitário para estilização rápida e customizável.
+- **[Node.js](https://nodejs.org/):** Ambiente de execução JavaScript no lado do servidor, usado para backend.
 
-TypeScript: Superset do JavaScript que adiciona tipagem estática ao código.
+---
 
-Tailwind CSS: Framework CSS utilitário para estilização rápida e customizável.
+## **Funcionalidades**
 
-Node.js: Ambiente de execução JavaScript no lado do servidor, usado para backend.
+- **Links rápidos para redes sociais e currículo:**
+  - LinkedIn
+  - GitHub
+  - Currículo em PDF
+  - WhatsApp
 
-<h2>Funcionalidades</h2>
+- **Tooltip interativo:** Ao passar o mouse sobre os botões, aparecem dicas informativas (tooltips).
 
-Links rápidos para redes sociais e currículo:
+- **Design responsivo:** Totalmente adaptado para diferentes tamanhos de tela (desktop, tablet, mobile).
 
-LinkedIn
+- **Transições suaves:** Efeitos visuais animados usando Tailwind CSS para uma experiência fluida.
 
-GitHub
+---
 
-Currículo em PDF
+## **Como Executar Localmente**
 
-WhatsApp
+1. **Clone o repositório:**
 
-Tooltip interativo: Ao passar o mouse sobre os botões, aparecem dicas informativas (tooltips).
+   ```bash
+   git clone https://github.com/seu-usuario/portfolio.git
+   ```
 
-Design responsivo: Totalmente adaptado para diferentes tamanhos de tela (desktop, tablet, mobile).
+2. **Acesse o diretório do projeto:**
 
-Transições suaves: Efeitos visuais animados usando Tailwind CSS para uma experiência fluida.
+   ```bash
+   cd portfolio
+   ```
 
-<h2>Como Executar Localmente</h2>
+3. **Instale as dependências:**
 
-Clone o repositório:
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-git clone https://github.com/seu-usuario/portfolio.git
+4. **Inicie o servidor de desenvolvimento:**
 
-Acesse o diretório do projeto:
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
 
-cd portfolio
+5. **Acesse o projeto no navegador:**
 
-Instale as dependências:
+   O projeto estará disponível em `http://localhost:3000`.
 
-npm install
-# ou
-yarn install
+---
 
-Inicie o servidor de desenvolvimento:
+## **Estrutura do Projeto**
 
-npm run dev
-# ou
-yarn dev
-
-Acesse o projeto no navegador:
-
-O projeto estará disponível em http://localhost:3000.
-
-<h2>Estrutura do Projeto</h2>
-
+```
 portfolio/
 ├── public/               # Arquivos estáticos (imagens, favicon, etc.)
 ├── src/
@@ -69,12 +78,17 @@ portfolio/
 │   └── utils/            # Funções auxiliares
 ├── package.json          # Dependências e scripts
 └── tailwind.config.js    # Configuração do Tailwind CSS
+```
 
-<h2>Contribuição</h2>
+---
 
-Se você quiser contribuir com melhorias ou sugestões para este projeto, fique à vontade para abrir um issue ou enviar um pull request.
+## **Contribuição**
 
-## :memo: Licença
+Se você quiser contribuir com melhorias ou sugestões para este projeto, fique à vontade para abrir um [issue](https://github.com/seu-usuario/portfolio/issues) ou enviar um pull request.
+
+---
+
+## **Licença**
 
 Esse projeto está sob a licença MIT.
 
